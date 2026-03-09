@@ -1,0 +1,49 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2022 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[13:00:30.314169] Configured Lic search path (21.01-s002): 5280@cadence_server
+
+Version: 21.14-s082_1, built Thu Jun 23 02:02:08 PDT 2022
+Options: -files rcscript1.tcl 
+Date:    Mon Feb 23 13:00:30 2026
+Host:    cad2 (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (20cores*28cpus*1physical cpu*Intel(R) Core(TM) i7-14700 33792KB) (16081880KB)
+PID:     19517
+OS:      Red Hat Enterprise Linux release 8.7 (Ootpa)
+
+
+[13:00:30.398266] Periodic Lic check successful
+[13:00:30.398274] Feature usage summary:
+[13:00:30.398274] Genus_Synthesis
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (4 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source rcscript1.tcl
+#@ Begin verbose source ./rcscript1.tcl
+@file(rcscript1.tcl) 2: set_db init_lib_search_path /home/install/FOUNDRY/digital/90nm/dig/lib   
+  Setting attribute of root '/': 'init_lib_search_path' = /home/install/FOUNDRY/digital/90nm/dig/lib
+@file(rcscript1.tcl) 3: set_db hdl_search_path /home/vlsi/Desktop/1dt23ec100/Experiment 2
+Error   : A command argument did not match any of the acceptable command options. [TUI-170] [set_db]
+        : '2' is not a legal option for the command.
+        : Check the command usage and correct the input to the command.
+#@ End verbose source ./rcscript1.tcl
+1
+Encountered problems processing file: rcscript1.tcl
+WARNING: This version of the tool is 1340 days old.
+
+Lic Summary:
+[13:00:39.412906] Cdslmd servers: cadence_server
+[13:00:39.412907] Feature usage summary:
+[13:00:39.412907] Genus_Synthesis
+
+Normal exit.
