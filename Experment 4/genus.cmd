@@ -1,0 +1,8 @@
+# Cadence Genus(TM) Synthesis Solution, Version 21.14-s082_1, built Jun 23 2022 14:32:08
+
+# Date: Mon Mar 09 11:41:52 2026
+# Host: cad2 (x86_64 w/Linux 4.18.0-425.3.1.el8.x86_64) (20cores*28cpus*1physical cpu*Intel(R) Core(TM) i7-14700 33792KB)
+# OS:   Red Hat Enterprise Linux release 8.7 (Ootpa)
+
+source rcscript1.tcl
+~unconstrained
