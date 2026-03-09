@@ -1,0 +1,18 @@
+ncsim(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm tb.a tb.b tb.c tb.clk tb.rst
+Created probe 1
+ncsim> run
+Simulation complete via $finish(1) at time 230 NS + 0
+./test_for_booth.v:15 #200 $finish;
+ncsim> ...Regained control from SimVision
+-------------------------------------
+
+ncsim> ------
+ncsim: Memory Usage - 38.6M program + 272.7M data = 311.3M total (314.9M Peak)
+ncsim: CPU Usage - 0.3s system + 0.1s user = 0.3s total (71.2s, 0.5% cpu)
